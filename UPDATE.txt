@@ -1,0 +1,1 @@
+V3: Daily Law, progress, reading days, achievements, font size, PIN setup, share, bookmarks, notes, search, dark/light theme. Replace index.html, manifest.webmanifest and sw.js in GitHub.
