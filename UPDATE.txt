@@ -1,0 +1,1 @@
+V2: Home, Progress, Bookmark, Mark as Read, Personal Notes, Search, Dark/Light theme, Law of the Day. GitHub repository-তে index.html, manifest.webmanifest ও sw.js replace করে commit করো.

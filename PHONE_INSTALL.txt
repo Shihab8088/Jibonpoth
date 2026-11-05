@@ -1,0 +1,21 @@
+ফোন দিয়েই ইনস্টল করার নিয়ম
+============================
+
+গুরুত্বপূর্ণ: Chrome-এ "Install app" দেখাতে PWA-টি HTTPS ওয়েবসাইট হিসেবে চালু করতে হবে।
+এই ZIP-টি ফোনে রেখে সরাসরি file:// খুললে সাধারণত Install App দেখাবে না।
+
+সবচেয়ে সহজ উপায়:
+1) ZIP ফাইলটি ডাউনলোড ও Extract করো।
+2) ফোনে একটি free static hosting service-এ account খুলে এই 4টি ফাইল upload করো:
+   - index.html
+   - manifest.webmanifest
+   - sw.js
+   - PHONE_INSTALL.txt (এটি upload না করলেও হবে)
+3) Hosting থেকে পাওয়া https://... লিংক Chrome-এ খুলো।
+4) Chrome-এর ⋮ menu চাপো।
+5) "Install app" / "Add to Home screen" নির্বাচন করো।
+6) নাম হিসেবে "48 Laws বাংলা" রাখো।
+7) Add/Install চাপো।
+8) Home Screen-এ আইকন চলে আসবে এবং পরে সাধারণ অ্যাপের মতো খুলতে পারবে।
+
+অ্যাপের নোটগুলো offline cache করা থাকবে; প্রথমবার লিংকটি খুলে একটু অপেক্ষা করবে।
